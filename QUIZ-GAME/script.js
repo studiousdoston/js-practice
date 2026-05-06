@@ -16,6 +16,24 @@ const progressBar = document.getElementById("progress");
 
 const quizQuestions = [
   {
+    question: "What is the capital of Japan?",
+    answers: [
+      { text: "Beijing", correct: false },
+      { text: "Seoul", correct: false },
+      { text: "Bangkok", correct: false },
+      { text: "Tokyo", correct: true },
+    ],
+  },
+  {
+    question: "How many sides does a hexagon have?",
+    answers: [
+      { text: "5", correct: false },
+      { text: "7", correct: false },
+      { text: "8", correct: false },
+      { text: "6", correct: true },
+    ],
+  },
+  {
     question: "What is the capital of France?",
     answers: [
       { text: "London", correct: false },
