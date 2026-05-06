@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.header{
+  background-color: lightgoldenrodyellow;
+  text-align: center;
+}
+textarea{
+  border-radius: 8px;
+  vertical-align: top;
+  padding-top: 10px;
+  padding-left: 5px;
+  height: 8rem;
+  width: 30vw;
+}
+.limit{
+  border: 2px solid red;
+}
+.counter{
+  font-weight: 900;
+  font-size: 24px;
+}
